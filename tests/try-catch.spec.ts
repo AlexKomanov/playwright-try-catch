@@ -24,7 +24,7 @@ test.describe.only('Try Catch Example', async () => {
         }
         catch (error) {
             await test.step(`${error}`, async() => {
-                throw new Error(error.toString());
+                throw new Error(error.toString()); 
             })
            
   
