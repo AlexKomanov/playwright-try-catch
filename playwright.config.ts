@@ -29,7 +29,7 @@ const config: PlaywrightTestConfig = {
     browserName: 'chromium',
     launchOptions: {
       channel: 'chrome',
-      headless: false
+      headless: true
     }
   },
 
